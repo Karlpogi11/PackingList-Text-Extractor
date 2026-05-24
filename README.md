@@ -7,9 +7,11 @@ Automatically extracts AWB data from Apple packing list/invoice PDFs and logs to
 - Python 3
 
 ## Setup (one-time)
+Paste this in Terminal:
 ```bash
-brew install tesseract poppler
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Karlpogi11/PackingList-Text-Extractor/main/install.sh)"
 ```
+This will install dependencies and download the tool to your Desktop.
 
 ## Usage
 ```bash
